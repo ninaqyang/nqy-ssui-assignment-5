@@ -1,0 +1,50 @@
+#mainScreen {}
+
+#mainImg {
+  width: 100%;
+  margin-top: 30px;
+}
+
+#largeButtonLayout {
+  margin: -30px auto 20px auto;
+  display: block;
+  position: relative;
+}
+
+.bunItemsContainer {
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Styling for each bun container */
+.bunContainer {
+  /* Each bun item is within this container */
+}
+
+.bunIcon {
+  width: 52px;
+  vertical-align: text-top;
+  margin-bottom: -20px;
+  margin-left: -20px;
+  position: relative;
+}
+
+.bunImageAndTitleContainer {
+  /* Each bun's text info is in this container */
+}
+
+.bunImage {
+  /* Original width is 224px */
+  width: 340px;
+  height: 270px;
+}
+
+.bunTitle {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}

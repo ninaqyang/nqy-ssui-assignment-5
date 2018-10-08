@@ -1,0 +1,136 @@
+ul li {
+  text-align: center;
+  list-style: none;
+}
+
+.whiteBoxMainProduct {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mainBunIconImgContainer {
+  /* text-align: center; */
+  margin-left: 6%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.mainBunIcon {
+  width: 82px;
+  position: absolute;
+  margin-left: -40px;
+  margin-top: -40px;
+  top: 0;
+  left: 0;
+}
+
+.mainBunTitle {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 40px;
+  margin: 40px 0px 70px 30px;
+}
+
+.mainBunImage {
+  width: 90%;
+  height: 400px;
+}
+
+.subtitleInWhiteBox {
+  font-size: 30px;
+}
+
+.leftContainer {
+  width: 50%;
+}
+
+/* .centerLine {
+  border: none;
+  border-left: 1px solid #DFDFDF;
+  height: 63vh;
+  width: 1px;
+  position: absolute;
+  margin-left: 580px;
+  margin-top: 25px;
+} */
+
+.rightContainer {
+  width: 50%;
+  margin: 15px 0;
+}
+
+#bunCategorySelector {
+  margin-bottom: 50px;
+}
+
+.options li:hover, .activeButton {
+  background-color: #CB8F59;
+  color: white;
+}
+
+.options li {
+  text-transform: uppercase;
+  color: #4A4A4A;
+  padding: 2% 6%;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #CB8F59;
+  display: inline-flex;
+  margin: 1% 2% 0 0;
+}
+
+#optionsText li {
+  font-size: 23px;
+}
+
+#optionsNumber li {
+  font-size: 30px;
+}
+
+#largeButtonLayout {
+  margin-top: 50px;
+}
+
+.bunItemsContainer {
+  margin: 50px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Styling for each bun container */
+.bunContainer {
+  /* Each bun item is within this container */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0px;
+}
+
+.bunIcon {
+  width: 55px;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.bunTextContainer {
+  /* Each bun text info is in this container */
+  font-family: 'Nunito Sans', sans-serif;
+  margin-left: 30px;
+}
+
+.bunImage {
+  /* Original width is 224px */
+  width: 300px;
+  height: 250px;
+}
+
+.bunTitle {
+  font-size: 25px;
+  margin: 20px 0px 40px 0px;
+}
